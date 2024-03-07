@@ -1,3 +1,11 @@
-export default function Login(){
-    return <h1>Login</h1>
+import { Button } from '@mui/material'
+export default function Login() {
+  return (
+    <>
+      <Button variant="contained" onClick={() => {}}>
+        Hello world
+      </Button>
+      <h1>Login</h1>
+    </>
+  )
 }
